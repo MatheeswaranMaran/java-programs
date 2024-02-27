@@ -3,7 +3,9 @@ public class Swap
 {
 	public static void main(String[] args){
 		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the number a:");
 		int a = s.nextInt();
+		System.out.println("Enter the number a:");
 		int b = s.nextInt();
 		System.out.println("Before Swapping: a="+a+" b="+b);
 		a = a+b;
